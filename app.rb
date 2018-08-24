@@ -8,7 +8,7 @@ class Application
   end
 
   post '/student' do
-    
+    student = Student.new(params[:student])
   end
 
 end
