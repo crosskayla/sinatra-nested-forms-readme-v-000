@@ -7,4 +7,8 @@ class Application
     erb :new
   end
 
+  post '/student' do
+    
+  end
+
 end
