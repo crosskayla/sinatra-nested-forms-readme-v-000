@@ -4,7 +4,10 @@ class Student
 
   STUDENTS = []
 
-  def initialize
+  def initialize(params)
+    @name << params[:name]
+    @grade << params[:grade]
+    STUDENTS << self
   end
 
 end
